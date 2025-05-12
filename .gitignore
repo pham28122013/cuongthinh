@@ -7,24 +7,37 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependency
 node_modules
-.DS_Store
+
+# Output
 dist
 dist-ssr
 coverage
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Environment files
+.env
+.env.*.local
 *.local
 
-/cypress/videos/
-/cypress/screenshots/
-
-# Editor directories and files
+# Editor
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
+.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
 
+# TypeScript
 *.tsbuildinfo
+
+# Lock file (chọn 1 tuỳ theo dùng npm hoặc yarn)
+package-lock.json
+# yarn.lock
